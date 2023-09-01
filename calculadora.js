@@ -4,9 +4,10 @@ var dividir = require("./modulos/dividir");
 var multiplicar = require("./modulos/multiplicar");
 var mensagem = require("./modulos/mensagem");
 var nome = "Caio";
+var msg = "Bem vindo ao curso de Node.js!"
 
 console.log(somar(20,90));
 console.log(media(20,90));
 console.log(dividir(20,90));
 console.log(multiplicar(20,90));
-console.log(mensagem(nome));
+console.log(mensagem(nome,msg));
